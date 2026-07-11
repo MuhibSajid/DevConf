@@ -10,6 +10,11 @@
 
     <!-- Main css Sheet -->
     <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +33,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Speakers</a></li>
+                <li><a href="#speakers">Speakers</a></li>
                 <li><a href="#">Schedule</a></li>
                 <li><a href="#">Tracks</a></li>
                 <li><a href="#">Venue</a></li>
@@ -54,23 +59,146 @@
     <!-- Main section Start -->
 
     <!-- speakers section start -->
-
+    <div id="speakers">
+        <h2>Meet the Speakers</h2>
+        <div class="speakers-card-container">
+            <div class="speakers-card">
+                <img src="./assets/andrej.png" alt=" photos andrej">
+                <div class="content">
+                    <p class="dperment">AI/ML</p>
+                    <h3>Andrej Karpathy</h3>
+                    <p class="job-title">Pretraining team, Anthropic</p>
+                </div>
+            </div>
+            <div class="speakers-card">
+                <img src="./assets/demis.png" alt=" photos demis">
+                <div class="content">
+                    <p class="dperment">Cloud & DevOps</p>
+                    <h3>Andrej Karpathy</h3>
+                    <p class="job-title">Co-Founder and CEO, Google DeepMind</p>
+                </div>
+            </div>
+            <div class="speakers-card">
+                <img src="./assets/gary.png" alt=" photos andrej">
+                <div class="content">
+                    <p class="dperment">Frontend</p>
+                    <h3>Gary Marcus</h3>
+                    <p class="job-title">Staff Engineer, Vercel</p>
+                </div>
+            </div>
+            <div class="speakers-card">
+                <img src="./assets/mustafa.png" alt=" photos andrej">
+                <div class="content">
+                    <p class="dperment">Security</p>
+                    <h3>Mustafa Suleyman</h3>
+                    <p class="job-title">CEO of Microsoft AI</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- speakers section End -->
 
-
     <!-- pricing section start -->
+    <div id="pricing">
+        <div class="content">
+            <h2>Secure Your Spot</h2>
+            <p>Early-bird pricing ends August 15, 2026.</p>
+            <div class="price-container">
+                <div class="price-card">
+                    <h6>Standard</h6>
+                    <h3>$399</h3>
+                    <p>per person</p>
+                    <hr>
+                    <ul>
+                        <li>Access to all 3 conference days</li>
+                        <li>48 curated technical talks</li>
+                        <li>2 workshop sessions</li>
+                        <li>Networking lunch & coffee breaks</li>
+                        <li>Conference swag bag</li>
+                        <li>Digital recordings (30 days)</li>
+                    </ul>
+                    <div class="card-rg-boutton">
+                        <a href="#">Get Standard</a>
+                    </div>
+                </div>
+                <div class="price-card pro-card">
+                    <h6>Pro</h6>
+                    <h3>$749</h3>
+                    <p>per person</p>
+                    <hr>
+                    <ul>
+                        <li>Everything in Standard</li>
+                        <li>Unlimited workshop access</li>
+                        <li>Speaker meet & greet</li>
+                        <li>VIP networking dinner</li>
+                        <li>Lifetime recording access</li>
+                        <li>1-on-1 mentorship (30 min)</li>
+                    </ul>
+                    <div class="card-rg-boutton">
+                        <a href="#">Get Pro</a>
+                    </div>
+                </div>
+                <div class="price-card">
+                    <h6>Team</h6>
+                    <h3>$5,999</h3>
+                    <p>per person</p>
+                    <hr>
+                    <ul>
+                        <li>Everything in Pro (10 seats)</li>
+                        <li>Dedicated team lounge access</li>
+                        <li>Private workshop booking</li>
+                        <li>Company logo on event page</li>
+                        <li>Recruitment booth (1 day)</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <div class="card-rg-boutton">
+                        <a href="#">Contact Us</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- pricing section End -->
 
 
     <!-- AI section start -->
 
+
     <!-- AI section End -->
 
     <!-- Main section End -->
 
     <!-- Footer section Start -->
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="footer-logo">
+                    <a href="#"><img src="./assets/footer-logo.png" alt="footer logo"></a>
 
+                </div>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="bottom">
+                <div class="c-left">
+                    <p>© 2026 DevConf. All rights reserved.</p>
+                </div>
+                <div class="c-right">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Footer section End -->
 
 </body>

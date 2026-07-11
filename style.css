@@ -96,3 +96,252 @@
     font-size: 24px;
     font-weight: 500;
 }
+
+
+/*  speakers section style sheet start */
+#speakers {
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+#speakers h2 {
+    margin: 70px 0 50px;
+    text-align: center;
+    font-size: 56px;
+    color: #000102;
+}
+
+.speakers-card-container {
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.speakers-card-container .speakers-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+
+}
+
+.speakers-card-container .speakers-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.speakers-card-container .speakers-card .content {
+    text-align: left;
+    padding: 25px;
+}
+
+.speakers-card-container .speakers-card .content .dperment {
+    padding: 10px 0 15px;
+    color: #2563EB;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.speakers-card-container .speakers-card .content h3 {
+    padding: 0 0 15px;
+}
+
+.speakers-card-container .speakers-card .content .job-title {
+    font-size: 14px;
+    color: #575757;
+}
+
+/* pricing section start */
+
+#pricing {
+    width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#pricing .content h2 {
+    margin: 70px 0 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #000102;
+}
+
+#pricing .content p {
+    font-size: 16px;
+    color: #575757;
+    margin: 10px 0 30px;
+}
+
+
+.price-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-container .price-card {
+    text-align: left;
+    padding: 40px;
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+}
+
+.price-container .price-card h6 {
+    font-size: 13px;
+    color: #888888;
+}
+
+.price-container .price-card h3 {
+    font-size: 44px;
+    color: #000;
+}
+
+
+
+.price-container .price-card hr {
+    width: 98%;
+    margin: 0 auto;
+    border: 1px 0 0 0;
+    border-color: #f2f3f5;
+    margin: 20px 0;
+}
+
+.price-container .price-card ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.price-container .price-card ul li {
+    padding: 0 15px;
+    color: #333333;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.price-container .price-card ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #60A5FA;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.price-container .price-card .card-rg-boutton {
+    padding: 20px 0;
+    text-align: center
+}
+
+.price-container .price-card .card-rg-boutton a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 12px 88px;
+    border: 1.5px solid #1D4ED8;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.price-container .pro-card {
+    background-color: #0D1B2A;
+
+}
+
+.price-container .pro-card h6 {
+    color: #93C5FD;
+}
+
+.price-container .pro-card h3 {
+    color: #fff;
+}
+
+.price-container .pro-card p {
+    color: #6d757e;
+}
+
+.price-container .pro-card hr {
+    border-color: #35495d;
+}
+
+.price-container .pro-card ul li {
+    color: #a7abb1;
+
+}
+
+.price-container .pro-card .card-rg-boutton a {
+    background-color: #1D4ED8;
+    color: #fff;
+    padding: 12px 108px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Footer sction stylesheet */
+
+footer {
+    padding: 15px 0;
+    background-color: #0D1B2A;
+
+}
+
+footer .container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+footer .container .top {
+    padding: 25px 15px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .top ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+footer .container .top ul li a {
+    color: #fff;
+
+}
+
+footer .container hr {
+    border: 1 0 0 0;
+    border-style: dashed;
+    border-color: #333333;
+}
+
+footer .container .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .c-left p {
+    color: #8b93a7;
+    font-size: 12px;
+    padding: 5px;
+
+}
+
+footer .container .c-right a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #8b93a7;
+}
